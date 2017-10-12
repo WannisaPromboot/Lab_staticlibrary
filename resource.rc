@@ -1,0 +1,21 @@
+#include "resource.h"
+
+IDR_MYMENU MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "SAVE", ID_FILE_SAVE
+        MENUITEM "E&xit", ID_FILE_EXIT
+    END
+
+    POPUP "&Emoji"
+    BEGIN
+        MENUITEM "&Smile", ID_PIC_EMO1
+        MENUITEM "&Soso", ID_PIC_EMO2
+         MENUITEM "&Sad", ID_PIC_EMO3
+          MENUITEM "&MONGBON", ID_PIC_EMO4
+          MENUITEM "&Doraemon", ID_PIC_EMO5
+	
+        
+    END
+END
